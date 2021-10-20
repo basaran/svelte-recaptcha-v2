@@ -1,0 +1,22 @@
+{
+    "short_name": "svelte-pwa",
+    "name": "svelte-pwa",
+    "start_url": "/",
+    "icons": [{ "src": "/icon/favicon-32x32.png", "type": "image/png", "sizes": "32x32" }],
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+
+    "shortcuts": [
+        {
+            "name": "ShortCut Name",
+            "short_name": "ShortCut Short Name",
+            "description": "ShortCut Description",
+            "url": "/",
+            "icons": [{ "src": "/icon/android-chrome-192x192.png", "sizes": "192x192" }]
+        }
+    ],
+
+    "description": "Manifest Description"
+}
