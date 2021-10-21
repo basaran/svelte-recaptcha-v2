@@ -53,7 +53,6 @@ In your form, add the component:
     on:expired={onCaptchaExpire}
     on:close={onCaptchaClose}
     on:ready={onCaptchaReady} />
-</form>
 ```
 
 Setup your event handlers:
