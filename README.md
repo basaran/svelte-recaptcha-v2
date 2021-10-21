@@ -1,4 +1,4 @@
-
+![svelte-recaptcha-v2](https://user-images.githubusercontent.com/30809170/138197082-b92887d5-a875-41ee-9939-cbb8aba9ab6b.png)
 
 # svelte-recaptcha-v2
 
