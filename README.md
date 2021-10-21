@@ -39,9 +39,6 @@ import { Recaptcha, recaptcha, observer } from "svelte-recaptcha-v2";
  */
 
 const googleRecaptchaSiteKey="replace_with_yours";
-
-let observer;
-/*binding for tracking recaptcha execution*/
 ```
 
 In your form, add the component:
