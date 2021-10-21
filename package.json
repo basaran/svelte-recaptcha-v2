@@ -1,6 +1,6 @@
 {
     "name": "svelte-recaptcha-v2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Google ReCaptcha v2 implementation for Svelte and SvelteKit",
     "scripts": {
         "build": "rollup -c",
