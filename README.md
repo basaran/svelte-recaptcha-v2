@@ -136,3 +136,7 @@ If you would like to enable client side debugging, add `{Recaptcha}` value to yo
 
 If any trouble, please create an issue. PRs are most welcome.
 
+## Todo
+
+- [] add recipes for validation libraries (felte, stock etc)
+- [] look into mutation observers
