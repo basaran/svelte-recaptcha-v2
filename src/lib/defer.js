@@ -1,4 +1,4 @@
-export const defer = () => {
+const defer = () => {
     var res, rej;
 
     var promise = new Promise((resolve, reject) => {
@@ -11,3 +11,5 @@ export const defer = () => {
 
     return promise;
 };
+
+export default defer;
