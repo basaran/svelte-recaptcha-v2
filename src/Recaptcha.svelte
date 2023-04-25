@@ -22,6 +22,8 @@ export let recaptcha;
 //svelte-ignore unused-export-let
 export let observer = defer();
 /*captcha observer, tracks recaptcha.execute*/
+    
+export let theme = 'light'; // or dark
 </script>
 
 <!----------------------------------------------------------------┐
@@ -328,7 +330,7 @@ const sleep = (seconds) =>
 <!----------------------------------------------------------------┐
                                                                └-->
 
-<div id="googleRecaptchaDiv" class="g-recaptcha" />
+<div id="googleRecaptchaDiv" class="g-recaptcha" data-theme={theme} />
 
 <!--------------------------------------------------- comments ----;
 
