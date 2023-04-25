@@ -23,7 +23,7 @@ export let recaptcha;
 export let observer = defer();
 /*captcha observer, tracks recaptcha.execute*/
     
-export let theme = 'light'; // or dark
+export let theme = 'dark'; // or dark
 </script>
 
 <!----------------------------------------------------------------┐
