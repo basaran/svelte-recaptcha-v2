@@ -10,6 +10,11 @@
     "svelte": "./src/index.js",
     "module": "./dist/index.mjs",
     "main": "./dist/index.js",
+     "exports": {     
+         ".": {
+             "svelte": "./src/index.js"
+         }
+     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/basaran/svelte-recaptcha-v2.git"
